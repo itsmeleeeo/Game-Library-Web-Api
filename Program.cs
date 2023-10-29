@@ -31,5 +31,6 @@ app.MapMethods(PlatformPut.Template, PlatformPut.Methods, PlatformPut.Handler);
 app.MapMethods(GamePut.Template, GamePut.Methods, GamePut.Handler);
 
 //DELETE
-
+app.MapMethods(PlatformDelete.Template, PlatformDelete.Methods, PlatformDelete.Handler);
+app.MapMethods(GameDelete.Template, GameDelete.Methods, GameDelete.Handler);
 app.Run();
